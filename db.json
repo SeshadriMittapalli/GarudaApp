@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "asfdasdf",
+      "password": "adsf",
+      "userType": "admin",
+      "id": 1
+    },
+    {
+      "username": "s@lorvin.com",
+      "password": "Ss@123",
+      "userType": "admin",
+      "id": 2
+    }
+  ]
+}

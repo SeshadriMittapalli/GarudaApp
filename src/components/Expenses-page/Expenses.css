@@ -1,0 +1,80 @@
+ .expense {
+    width: 100%;
+    height: 500px;
+    margin-left: 300px;
+ }
+
+  .expense .btns {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .expense .dbtn {
+    width: 7vw;
+    height: 45px;
+    background-color: #2f4050;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .expense .wbtn {
+    width: 7vw;
+    height: 45px;
+    background-color: #2f4050;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-left: 7px;
+    text-align: center;
+  }
+
+  .expense .mbtn {
+    width: 7vw;
+    height: 45px;
+    background-color: #2f4050;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-left: 7px;
+    text-align: center;
+  }
+
+  .expense .stackedgraph {
+    width: 70vw;
+    height: 100vw;
+    margin-top: 40px;
+  }
+
+  .expense input:hover {
+    cursor: pointer;
+    background-color: #5d6e7d;
+  }
+
+  .expense input:hover {
+    cursor: pointer;
+    background-color: #5d6e7d;
+  }
+
+  .expense input:disabled {
+    background-color: #84b7e4;
+    cursor: auto;
+  }
+
+  .expense .btns .datepicker {
+    position: absolute;
+    right: 100px;
+  }

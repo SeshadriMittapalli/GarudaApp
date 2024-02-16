@@ -1,0 +1,76 @@
+  .logotext {
+    height: 6vh;
+    width: 100vw;
+    background-color: #2f4050;
+    margin-top: 2px;
+  }
+
+  .sidebar {
+    height: 749px;
+    width: 208px;
+    float: left;
+    display: flex;
+  }
+
+  .expenses {
+    margin-left: 300px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: blue;
+  }
+
+  .topSideleft {
+    display: flex;
+    width: 50%;
+    margin-left: 500px;
+    height: 100vw;
+    margin-top: 40px;
+  }
+
+  .homedetails {
+    margin-top: 5px;
+    float: left;
+    box-shadow: 0px 0px 0px 0px #2f4050;
+    height: 730px;
+    width: 86%;
+  }
+  .homedetails ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2px;
+  }
+  .homedetails li {
+    list-style: none;
+    flex: 0 0 32.5%;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    height: 233px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .homedetails li .graphcontent {
+    height: 180px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .homedetails li i {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 10px;
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .homedetails li .graphcontent {
+    margin-left: 70px !important;
+  }
+
+  .homedetails .pin {
+    float: right;
+    margin-right: 5px;
+  }
+
+

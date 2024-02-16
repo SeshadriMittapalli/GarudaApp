@@ -1,0 +1,174 @@
+ .searchdetails {
+    margin-top: 10px;
+    margin-left: 216px;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    height: 735px;
+    width: 1312px;
+    padding: 0px;
+    flex: 0 0 32.5%;
+  }
+
+  .searchdetails .searchbox {
+    padding: 10px;
+    display: flex;
+  }
+
+  .submt {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .sbtbtn {
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    background-color: #84b7e4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .recbtn {
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 40px;
+    background-color: #84b7e4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;  
+  }
+
+  .react-dropdown-select-content.react-dropdown-select-type-multi.css-jznujr-ContentComponent.e1gn6jc30 {
+    overflow-y: scroll;
+    height: 161px;
+  }
+
+  .react-dropdown-select-content.react-dropdown-select-type-multi.css-1m5113o.e1gn6jc30 {
+    overflow-y: scroll;
+    height: 161px;  
+  }
+  
+  /* .react-dropdown-select-content.react-dropdown-select-type-multi.css-jznujr-ContentComponent.e1gn6jc30 .react-dropdown-select-item {
+    height: fit-content;
+    border-radius: 7px;
+  }
+  
+  .react-dropdown-select-content.react-dropdown-select-type-multi.css-jznujr-ContentComponent.e1gn6jc30 .react-dropdown-select-item-selected {
+    height: fit-content;
+    border-radius: 7px;
+  } */
+
+  .react-dropdown-select-option.css-9ma7ck-OptionComponent.e1l4eby50 {
+    height: fit-content;
+    border-radius: 7px;
+  }
+
+  .react-dropdown-select-option.css-1ptwt68.e1l4eby50 {
+    height: fit-content;
+    border-radius: 7px;   
+  }
+  
+  /* Add more specific CSS rules for other elements within the dropdown as needed */
+  
+
+  .searchdetails .table-container {
+    overflow-x: auto;
+    margin: 15px;
+    border-radius: 25px;
+    height: 432px;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .responsive-table th {
+    background-color: #f2f2f2;
+  }
+
+  .fixed-column {
+    position: sticky;
+    left: 0;
+    background-color: #fff; /* You can change this if you want a different background color */
+    z-index: 1; /* Ensure it's above other columns */
+  }
+  
+  .fixed-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  #middleheader {
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .responsive-table {
+      overflow-x: auto;
+      display: block;
+    }
+  
+    .responsive-table thead,
+    .responsive-table tbody,
+    .responsive-table th,
+    .responsive-table td,
+    .responsive-table tr {
+      display: block;
+    }
+
+    .responsive-table tr #nodata {
+      text-align: center;
+    }
+  
+    .responsive-table thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    .responsive-table tr {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+  
+    .responsive-table td {
+      border-bottom: 1px solid #ddd;
+      text-align: right;
+    }
+  
+    .responsive-table td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+    }
+  }
